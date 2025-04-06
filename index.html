@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-app">
+        <div class="search-bar">
+            <input type="text" id="cityInput" placeholder="Search for a city...">
+            <button id="searchButton">Search</button>
+        </div>
+        <div class="weather-info">
+            <h2 id="cityName">New York</h2>
+            <div class="temperature">
+                <span id="temperature">22°C</span>
+               
+            </div>
+            <p id="weatherDescription">Clear</p>
+            <div class="details">
+                <p>Humidity: <span id="humidity">56%</span></p>
+                <p>Wind: <span id="wind">3.6 km/h</span></p>
+                <p>Sunrise: <span id="sunrise">06:01</span></p>
+            </div>
+        </div>
+        <div class="forecast">
+            <div class="day">
+                <p>Mon</p>
+                <span id="monTemp">24°C</span>
+                <span id="monMinTemp">16°C</span>
+            </div>
+            <div class="day">
+                <p>Tue</p>
+                <span id="tueTemp">21°C</span>
+                <span id="tueMinTemp">15°C</span>
+            </div>
+            <div class="day">
+                <p>Wed</p>
+                <span id="wedTemp">19°C</span>
+                <span id="wedMinTemp">14°C</span>
+            </div>
+            <div class="day">
+                <p>Thu</p>
+                <span id="thuTemp">23°C</span>
+                <span id="thuMinTemp">17°C</span>
+            </div>
+            <div class="day">
+                <p>Fri</p>
+                <span id="friTemp">25°C</span>
+                <span id="friMinTemp">18°C</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
